@@ -17,9 +17,9 @@ public class Main {
 		
 		db.runSql2("TRUNCATE record;");
 		System.out.println("Processing the Input URL");
-		//processPage("http://www.geeksforgeeks.org/java/");
+		processPage("http://www.geeksforgeeks.org/java/");
 		System.out.println("Putting the URL's into a Employee.txt file ");
-		//filedata.executeres();
+		filedata.executeres();
 		System.out.println("Saving the web content into test files");
 		JavaGetUrl10.generator();
 	}
